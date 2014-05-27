@@ -3,8 +3,8 @@
 如何像電腦科學家一樣的思考
 ==========================
 
-用 Python 3 來學習 中文程式設計
--------------------------------
+用 Python 3 以及 中文、英文 來學習 程式設計
+-------------------------------------------
     
 * 中文版: 2014。  
 
@@ -80,59 +80,3 @@ Learning Chinese Programming with Python 3
 * `GNU Free Document License <fdl-1.3.rst>`__ *GNU 自由文件許可證*
 
 
-.. toctree::
-    :maxdepth: 1
-    :hidden:
-
-    copyright.rst
-    foreword.rst
-    preface.rst
-    preface3-rle.rst
-    contrib.rst
-
-.. toctree::
-    :maxdepth: 1
-    :numbered:
-    :hidden:
-
-    way_of_the_program.rst
-    variables_expressions_statements.rst
-    hello_little_turtles.rst
-    functions.rst
-    conditionals.rst
-    fruitful_functions.rst
-    iteration.rst
-    strings.rst
-    tuples.rst
-    events.rst
-    lists.rst
-    modules.rst
-    files.rst
-    list_algorithms.rst
-    classes_and_objects_I.rst
-    classes_and_objects_II.rst
-    pygame.rst
-    recursion.rst
-    exceptions.rst
-    dictionaries.rst
-    casestudy_fileindexer.rst
-    even_more_oop.rst
-    collections.rst
-    inheritance.rst
-    linked_lists.rst
-    stacks.rst
-    queues.rst
-    trees.rst
-
-.. toctree::
-    :maxdepth: 1
-    :hidden:
-
-    app_a.rst
-    app_b.rst
-    app_c.rst
-    app_d.rst
-    app_e.rst
-    fdl-1.3.rst
-        
-* :ref:`search` *搜尋頁*

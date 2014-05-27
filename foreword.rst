@@ -22,12 +22,9 @@ scientists, researchers, artists, and educators.
 我很高興看到這本書的完成。 
 Python 是一個暨有趣又極端容易使用的程式語言。
 它在過去幾年中漸漸普及起來。
-
 Python 最初是由 `Guido van Rossum <http://www.python.org/~guido/>`__ 所開發。
-
 它那簡單的語法和整體的感覺主要源自於 ABC 程式語言，
 那是一種教學語言，開發於 1980 年代。
-
 然而，Python 也被用來解決實際問題，
 並廣泛借用了各種特性的程式語言 
 如 C++、Java、Modula-3 以及Scheme。

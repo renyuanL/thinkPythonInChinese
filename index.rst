@@ -1,50 +1,14 @@
-﻿===========
-Python 教程
-===========
-
-by 呂仁園
----------
-
-* `_ryTest00 <_ryTest00.rst>`__ *_ryTest00*
-* `_ryTest01 <_ryTest01.rst>`__ *_ryTest01*
-* `_ryTest02 <_ryTest02.rst>`__ *_ryTest02*
-* `_ryTest03 <_ryTest03.rst>`__ *_ryTest03*
-* `_ryTest04 <_ryTest04.rst>`__ *_ryTest04*
-* `_ryTest05 <_ryTest05.rst>`__ *_ryTest05*
-
-* `_ryTurtle01 <_ryTurtle01.rst>`__ *_ryTurtle01*
-* `_ryTurtle02 <_ryTurtle02.rst>`__ *_ryTurtle02*
-* `_ryTurtle03 <_ryTurtle03.rst>`__ *_ryTurtle03*
-* `_ryTurtle04 <_ryTurtle04.rst>`__ *_ryTurtle04*
-* `_ryTurtle05 <_ryTurtle05.rst>`__ *_ryTurtle05*
-
-.. toctree::
-    :maxdepth: 1
-    :numbered:
-    :hidden:
-    
-    _ryTest00.rst
-    _ryTest01.rst
-    _ryTest02.rst
-    _ryTest03.rst
-    _ryTest04.rst
-    _ryTest05.rst
-    
-    _ryTurtle01.rst
-    _ryTurtle02.rst
-    _ryTurtle03.rst
-    _ryTurtle04.rst
-    _ryTurtle05.rst
 
 ==========================
 如何像電腦科學家一樣的思考
 ==========================
+
 用 Python 3 來學習 中文程式設計
 -------------------------------
     
-* 中文版: 三月，2014。  
+* 中文版: 2014。  
 
-* 中文翻譯： 呂仁園
+* 中文翻譯： 呂仁園 發起，一群朋友協力。
 
 ======================================
 How to Think Like a Computer Scientist

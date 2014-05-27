@@ -4,7 +4,7 @@ think Python in Chinese
 想 Python 用 中文
 ================
 
-用 Python 3 以及 *中文* 來學習 程式設計
+用 Python 3 以及 **中文** 來學習 程式設計
 ---------------------------------------
 
 This project will translate a popular Python book 

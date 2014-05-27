@@ -107,6 +107,34 @@ Python even borrows a number of features from functional programming languages
 and can be used to introduce concepts that would be covered in more detail in
 courses on Scheme and Lisp.
 
+我喜歡 Python 的眾多原因之一是，
+它在實務和概念之間提供了一個非常好的平衡。
+
+  因為Python解釋，
+  初學者可以拿起的語言，並開始做整潔的事物幾乎
+  立即而不迷失在編譯和鏈接的問題。
+  
+  此外， Python提供了模塊的大庫，可用於
+  做各種任務，從網絡編程圖形。
+  
+  具有這種
+  切合實際的重點是一個偉大的方式來吸引學生，並讓他們
+  完成顯著的項目。
+  
+  然而， Python也可以作為一個很好的
+  基礎引入重要的計算機科學概念。
+  
+  因為Python
+  完全支持程序和類，學生可逐步引入到
+  主題，如過程抽象，數據結構和面向對象
+  編程---
+  所有這些都適用於基於Java或C + +以後的課程。
+  
+  蟒蛇甚至借用了一些功能從函數式編程語言
+  並且可以用來引入，將被覆蓋了更詳細的概念
+  課程計劃和Lisp 。
+
+
 In reading Jeffrey's preface, I am struck by his comments that Python allowed
 him to see a higher level of success and a lower level of frustration and that
 he was able to move faster with better results.  Although these comments refer
@@ -120,6 +148,27 @@ counterproductive---especially when the course is about a topic unrelated to
 just programming. I find that using Python allows me to better focus on the
 actual topic at hand while allowing students to complete substantial class
 projects.
+
+在閱讀 Jeffrey 的序言時，我被他的評論感動了， Python 允許 
+他看到更高層次的成功和較低水平的挫折，而 
+他能夠有更佳的成果向前邁進。 
+
+  儘管這些評論指 
+  他的入門課程，我有時會使用Python這些完全相同的原因 
+  在先進的研究生水平的計算機科學課程的大學 
+  芝加哥。 
+  
+  在這些課程，我不斷地面臨著艱鉅的任務 
+  涵蓋了很多困難當然材料的起泡9週季度。 
+  
+  雖然這是絕對有可能為我造成了很多痛苦和苦難 
+  通過使用像C + +語言，我經常發現這種方法是 
+  適得其反---尤其是當過程大約是無關的話題 
+  只是編程。 
+  
+  我發現使用Python可以讓我更好地專注於 
+  手頭同時讓學生完成大量的類實際話題 
+  項目。
 
 Although Python is still a young and evolving language, I believe that it has a
 bright future in education. This book is an important step in that direction.

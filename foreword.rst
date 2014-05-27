@@ -42,6 +42,12 @@ masochistic alternatives such as C++ and Java.  However, I think the most
 direct answer is that programming in Python is simply a lot of fun and more
 productive.
 
+儘管 Python 吸引了 各種不同的社群，你可能仍然不知道為什麼 要用 Python？
+或者為什麼要教 Python 編程？ 回答這些問題沒那麼簡單 --- 
+尤其是主流觀點傾向 較為自虐的替代品，如 C++ 和 Java。
+不過，我覺得最 直接的回答是，
+用 Python 來編程就只是很有趣，且更有 生產力。
+
 When I teach computer science courses, I want to cover important concepts in
 addition to making the material interesting and engaging to students.
 Unfortunately, there is a tendency for introductory programming courses to

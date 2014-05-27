@@ -1,8 +1,6 @@
-
 ==========================
 如何像電腦科學家一樣的思考
 ==========================
-
 用 Python 3 以及 中文、英文 來學習 程式設計
 -------------------------------------------
     
@@ -13,8 +11,9 @@
 ======================================
 How to Think Like a Computer Scientist
 ======================================
-Learning Chinese Programming with Python 3 
-------------------------------------------
+Learning Programming with Python 3 in Chinese 
+---------------------------------------------
+
 .. image:: _static/gasp_lessons.png
     :alt: GASP Logo
 

@@ -1,7 +1,5 @@
-﻿Preface
-=======
-序文
-
+Preface, 序文
+=============
 
 By Jeffrey Elkner
 
@@ -11,24 +9,21 @@ school teacher, and a professional programmer---never met face to face to work
 on it, but we have been able to collaborate closely, aided by many other folks
 who have taken the time and energy to send us their feedback.
 
+這本書的出現歸功於網際網路的協作與自由軟件運動。
+它的原文有三位作者---大學教授、高中老師和專業的程式設計師---
+他們彼此密切合作但卻從未曾面對面的工作，
+又透過其他許多人的幫助，
+他們花了時間和精力來給原文作者提供回饋。
+
 We think this book is a testament to the benefits and future possibilities of
 this kind of collaboration, the framework for which has been put in place by
 Richard Stallman and the Free Software Foundation.
 
-這本書的出現歸功於網際網路的協作與自由軟件運動。
-
-它的原文有三位作者---大學教授、高中老師和專業的程式設計師---
-他們彼此密切合作但卻從未曾面對面的工作，
-又透過其他許多人的幫助，
-他們花了時間和精力來給原文作者提供回饋。 
-
 我們認為這本書證明了這種合作的好處和未來的無限可能性，
 這種合作的框架是由 `Richard Stallman <http://en.wikipedia.org/wiki/Richard_Stallman>`__ 和自由軟件基金會所確立。
 
-
-How and why I came to use Python
---------------------------------
-我如何又為何來使用 Python 程式語言
+How and why I came to use Python，我如何又為何來使用 Python 程式語言
+--------------------------------------------------------------------
 
 In 1999, the College Board's Advanced Placement (AP) Computer Science exam was
 given in C++ for the first time. As in many high schools throughout the
@@ -65,9 +60,9 @@ a time in C++, and this accomplishment, combined with Matt's positive
 assessment of Python, suggested that Python was the solution I was looking for.
 
 
-Finding a textbook
-------------------
-找一本教科書
+Finding a textbook, 找一本教科書
+--------------------------------
+
 
 Having decided to use Python in both of my introductory computer science
 classes the following year, the most pressing problem was the lack of an
@@ -125,9 +120,8 @@ working with some of my most advanced students as a master teacher, guiding
 them beyond where I could take them.
 
 
-Introducing programming with Python
------------------------------------
-用 Python 來介紹程式設計
+Introducing programming with Python, 用 Python 來介紹程式設計
+-------------------------------------------------------------
 
 The process of translating and using *How to Think Like a Computer Scientist*
 for the past two years has confirmed Python's suitability for teaching
@@ -140,7 +134,6 @@ hello, world program, which in the Java version of the book looks like this:
     .. sourcecode:: java 
 
         class Hello {
-
           public static void main (String[] args) {
               System.out.println ("Hello, world.");
           }
@@ -215,8 +208,8 @@ meaningful programs and with the positive attitude toward the experience of
 programming that this engenders.
 
 
-Building a community
---------------------
+Building a community, 建立社群
+------------------------------
 
 I have received email from all over the globe from people using this book to
 learn or to teach programming. A user community has begun to emerge, and many

@@ -28,7 +28,7 @@ Python 最初是由 `Guido van Rossum <http://www.python.org/~guido/>`__ 所開�
 然而，Python 也被用來解決實際問題，
 並廣泛借用了各種特性的程式語言 
 如 C++、Java、Modula-3 以及Scheme。
-正因為如此，Python 的一個最顯著特點是其廣泛的吸引了各種專業人士，
+正因為如此，Python 的一個最顯著特點是其廣泛吸引了各種專業人士，
 包括：軟體開發人員、科學家、研究人員、藝術家以及教育家。
 
 
@@ -61,6 +61,35 @@ breaking the rules, and learning from their mistakes. In doing so, I don't want
 to waste half of the semester trying to sort out obscure syntax problems,
 unintelligible compiler error messages, or the several hundred ways that a
 program might generate a general protection fault.
+
+當我教計算機科學的課程時，
+除了使材料有趣的以吸引學生之外，
+我還想涵蓋一些重要概念。
+
+
+  不幸的是，對於編程入門課程的傾向
+  集中了太多的注意力放在數學抽象和學生
+  變得沮喪與相關的低層次的細節惱人的問題
+  語法，編譯和看似神秘的規則的實施。
+  
+  雖然
+  這種抽象和形式主義是非常重要的專業軟件工程師
+  和學生誰打算繼續計算機科學的研究，採取這種
+  在入門課程的做法大多是成功的電腦製作
+  科學無聊。
+  
+  當我教一門課程，我不希望有一個房間
+  平庸的學生。
+  
+  我寧願看到他們試圖解決有趣
+  通過探索不同的想法，採取非常規的方法問題，
+  打破規則，並從他們的錯誤中學習。
+  
+  在這樣做時，我不希望
+  浪費半學期試圖理清晦澀的語法問題，
+  難以理解的編譯器錯誤消息，或者幾百方法，一個
+  程序可能會生成一般保護性錯誤。
+
 
 One of the reasons why I like Python is that it provides a really nice balance
 between the practical and the conceptual. Since Python is interpreted,
@@ -98,4 +127,5 @@ bright future in education. This book is an important step in that direction.
 雖然 Python 仍然是一個年輕且不斷發展中的語言，我相信，至少在教育層面，它有一個 
 明亮的未來。這本書是在這一方向邁出了重要一步。
 
-David Beazley University of Chicago Author of the *Python Essential Reference*
+David Beazley, 
+University of Chicago Author of the *Python Essential Reference*

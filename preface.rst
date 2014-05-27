@@ -35,6 +35,16 @@ years of exposure to the same language, we made the decision to switch to C++
 in the first year course for the 1997-98 school year so that we would be in
 step with the College Board's change for the AP course the following year.
 
+1999年，美國大學理事會的進階先修（AP）計算機科學的考試首次 用 C++出題。
+
+    正如在許多高中在整個 國家，
+    改變語言決定了在電腦上直接影響 
+    科學課程在約克鎮高中在弗吉尼亞州阿靈頓，在那裡我 任教。 
+    到這一點，帕斯卡是指令的兩個我們在語言 第一年和AP課程。 
+    在保持與過去給學生兩次練習 多年的接觸到相同的語言，
+    我們做了切換到C + +的決定 在第一年課程1997-98學年，
+    這樣我們就可以在 加強與美國大學理事會的變化對AP課程下一年。
+
 Two years later, I was convinced that C++ was a poor choice to use for
 introducing students to computer science. While it is certainly a very powerful
 programming language, it is also an extremely difficult language to learn and
@@ -42,6 +52,19 @@ teach. I found myself constantly fighting with C++'s difficult syntax and
 multiple ways of doing things, and I was losing many students unnecessarily as
 a result. Convinced there had to be a better language choice for our first-year
 class, I went looking for an alternative to C++.
+
+兩年後，我確信，就用來向學生介紹計算機科學而言，C++ 是一個很爛的選擇 。 
+
+    雖然這肯定是一個非常強大的 
+    編程語言，它也是一個非常困難的語言學習和 
+    任教。 
+    
+    我發現自己不斷地用C+ +的語法難度和戰鬥 
+    做事多種方式，和我失去了很多學生不必要的 
+    的結果。 
+    
+    深信必須有一個更好的語言選擇，我們第一年 
+    類，我去尋找一個替代的C + +。
 
 I needed a language that would run on the machines in our GNU/Linux lab as well
 as on the Windows and Macintosh platforms most students have at home. I wanted
@@ -52,6 +75,22 @@ both procedural and object-oriented programming. And most importantly, it had
 to be easy to learn and teach. When I investigated the choices with these goals
 in mind, Python stood out as the best candidate for the job.
 
+我需要語言要能在我們的 GNU/Linux 實驗室的機器上運行，
+以及大多數學生在家裡也可以在 Windows 和 Macintosh 平台上運行。 
+ 
+
+    我想 
+    它是免費軟件，讓學生可以在家裡使用它，無論 
+    他們的收入。 
+    
+    我想這是由專業程序員的語言， 
+    和一個有圍繞它一個活躍的開發者社區。它必須支持 
+    程序性和面向對象編程。 
+    
+    而最重要的是，它有 
+    容易學習和任教。當我調查的選擇與這些目標 
+    記住，Python中脫穎而出適合這份工作的最佳人選。
+
 I asked one of Yorktown's talented students, Matt Ahrens, to give Python a try.
 In two months he not only learned the language but wrote an application called
 pyTicket that enabled our staff to report technology problems via the Web. I
@@ -59,10 +98,19 @@ knew that Matt could not have finished an application of that scale in so short
 a time in C++, and this accomplishment, combined with Matt's positive
 assessment of Python, suggested that Python was the solution I was looking for.
 
+我要求 Yorktown 有才華的學生， Matt Ahrens，嘗試 Python 看看。 
+
+    在兩個月內，他不僅學會了語言，但寫了所謂的應用程序 
+    pyTicket這使我們的工作人員通過網絡報告技術問題。 
+    
+     我 
+    知道馬特不可能在這麼短的完成了大規模的應用 
+    一時間在C + +中，這成就，並結合馬特的積極 
+    Python的評估，建議，Python的是我一直在尋找的解決方案。
+
 
 Finding a textbook, 找一本教科書
 --------------------------------
-
 
 Having decided to use Python in both of my introductory computer science
 classes the following year, the most pressing problem was the lack of an

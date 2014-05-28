@@ -40,7 +40,7 @@ single thing, or we may want to access its parts. This ambiguity is useful.
 這種模糊性是非常有用的。
 
 
-Working with strings as single things
+Working with strings as single things, 把字串視為單一物件
 -------------------------------------
 
 We previously saw that each turtle instance has its own attributes and 
@@ -88,7 +88,7 @@ using the meta-information --- the docstrings --- provided by the module program
 
     .. image::  illustrations/swapcase.png
 
-Working with the parts of a string
+Working with the parts of a string, 鑽進字串內部，與其部分共舞
 ----------------------------------
 
 The **indexing operator** (Python uses square brackets to enclose the index) 

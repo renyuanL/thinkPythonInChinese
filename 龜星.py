@@ -1,7 +1,9 @@
 ﻿#
 # 龜星.py
 #
-from 龜模組 import *
+from turtle_tc import *
+
+絕對值= abs
 
 顏色(紅, 黃)
 開始填色()
@@ -11,4 +13,4 @@ while True:
     if 絕對值(位置()) < 1:
         break
 結束填色()
-完畢()
+做完了()

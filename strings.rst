@@ -8,12 +8,12 @@
 
 |
     
-Strings
+Strings, 字串
 =======
 
 .. index:: compound data type, character, subscript operator, index
 
-A compound data type
+A compound data type, 一種複合的數據類型
 --------------------
 
 So far we have seen built-in types like ``int``, ``float``, 
@@ -21,6 +21,14 @@ So far we have seen built-in types like ``int``, ``float``,
 Strings, lists, and pairs are qualitatively different from the others because they
 are made up of smaller pieces.  In the case of strings, they're made up of smaller
 strings each containing one **character**.  
+
+
+到目前為止，我們已經看到了內建資料型態像是 ``int``, ``float``, 
+``bool``, ``str`` 等等，我們已經看到 列表 和 對子。 
+字串、列表、以及對子在本質上彼此不同，因為它們是由是較小的部分所組成。 
+在字串的情況下，他們是由更小的字串所組成，其各自含有 1 個 **字元**
+
+
 
 Types that comprise smaller pieces are called **compound data types**.
 Depending on what we are doing, we may want to treat a compound data type as a

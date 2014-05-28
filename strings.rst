@@ -29,10 +29,16 @@ strings each containing one **character**.
 在字串的情況下，他們是由更小的字串所組成，其各自含有 1 個 **字元**
 
 
-
 Types that comprise smaller pieces are called **compound data types**.
 Depending on what we are doing, we may want to treat a compound data type as a
 single thing, or we may want to access its parts. This ambiguity is useful.
+
+這包括較小區塊的類型被稱為 **複合數據類型**。 
+根據我們所做的事情，
+我們可能要把複合數據類型看作單一個物件，
+或者我們可能要檢視它的成員。 
+這種模糊性是非常有用的。
+
 
 Working with strings as single things
 -------------------------------------

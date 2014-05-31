@@ -33,8 +33,8 @@ PyGame 夾帶了大量的教程、範例以及幫助，
 所以有充足的機會來提升自己的程式功力。 
 你可能需要看看安裝後的目錄夾，找到這些資源，
 比方說：如果你已經在 Windows 機器上安裝 PyGame， 
-那麼這些資源會在一個以下的目錄夾之中  
-C：\\Python33\\LIB\\site-packages\\pygame\\  
+那麼這些資源會在以下的目錄夾之中  
+C:\\Python33\\LIB\\site-packages\\pygame\\  
 在那裡你會發現 *docs\\* 和 *examples\\*。
 
 The game loop, 遊戲迴圈

@@ -26,7 +26,7 @@ PyGame 是一個程式模組，它不是標準的 Python 發行版的一部分�
 PyGame comes with a substantial set of tutorials, examples, and help, so there is ample
 opportunity to stretch yourself on the code. You may need to look around a bit to find 
 these resources, though: if you've installed PyGame on a Windows machine, for example,
-they'll end up in a folder like C:\\Python31\\Lib\\site-packages\\pygame\\ where you 
+they'll end up in a folder like C:\\Python33\\Lib\\site-packages\\pygame\\ where you 
 will find directories for *docs* and *examples*.
  
 PyGame 夾帶了大量的教程、範例以及幫助，
@@ -50,11 +50,21 @@ The structure of the games we'll consider always follows this fixed pattern:
 In every game, in the *setup* section we'll create a window, load and prepare some content, and then
 enter the **game loop**.  The game loop continuously does four main things:
 
+在每個遊戲中，在 *設立* 小節中，我們將創立一個視窗， 
+下載並準備一些內容， 
+然後進入**遊戲迴圈**。 
+遊戲迴圈連續做 4 件事：
+
 * it **polls** for events --- i.e. asks the system whether
   events have occurred --- and responds appropriately, 
 * it updates whatever internal data structures or objects need changing, 
 * it draws the current state of the game into a (non-visible) surface,
 * it puts the just-drawn surface on display. 
+
+* 它 **清點** 事件 --- 即詢問系統是否有事件發生了--- 並且適當地做出反應， 
+* 它更新任何內部需要改變的資料結構或物件， 
+* 它畫出了遊戲的當前狀態到一個（隱藏的） 幕， 
+* 它把剛剛畫好的 幕 顯示出來。
 
 ..
 
@@ -100,11 +110,15 @@ enter the **game loop**.  The game loop continuously does four main things:
         :linenos:
 
         import pygame as pg
-
+        
+        #
+        # 設定 常用函數 中文別名
+        #
+        
         啟動=     pg.init
         結束=     pg.quit
 
-        幕設模式= pg.display.set_mode
+        幕設大小= pg.display.set_mode
         幕翻轉=   pg.display.flip
 
         事件清點= pg.event.poll
@@ -115,7 +129,7 @@ enter the **game loop**.  The game loop continuously does four main things:
             啟動()
                   
             幕大小= 480   
-            幕=     幕設模式((幕大小, 幕大小))
+            幕=  幕設大小((幕大小, 幕大小))
 
             方塊=   (300, 200, 150, 90)
             方塊色= (255, 0, 0)
@@ -134,6 +148,8 @@ enter the **game loop**.  The game loop continuously does four main things:
         主函數()
                 
 This program pops up a window which stays there until we close it:
+
+這個程式會彈出一個視窗並把它保持在那裡，直到我們關閉它：
 
     .. image:: illustrations/pygame_screenshot01.png 
 
@@ -183,7 +199,7 @@ extends from line 15 to 30, with the following key bits of logic:
   we ``flip`` the buffers, on line 30.
  
  
-Displaying images and text
+Displaying images and text, 顯示圖像及文字
 --------------------------
 
 To draw an image on the main surface, we load the 
@@ -398,7 +414,7 @@ once we start doing something a little more strenuous inside our game loop.
     .. image:: illustrations/pygame_screenshot02.png 
 
     
-Drawing a board for the N queens puzzle
+Drawing a board for the N queens puzzle, 畫出棋盤，給 N個皇后 拼圖
 ---------------------------------------
 
 We previously solved our N queens puzzle.  
@@ -645,7 +661,7 @@ here we add a call to draw the solution that we've just discovered::
 And that gives a very satisfying combination of program that can search for solutions to the N queens problem,
 and when it finds each, it pops up the board showing the solution.
         
-Sprites
+Sprites, 精靈
 -------
 
 A sprite is an object that can move about in a game, 
@@ -831,7 +847,7 @@ Heh, heh, heh!  We're not going to show animated screenshots,
 so copy the code into your Python environment and see for yourself.
             
             
-Events
+Events, 事件
 ------
 
 The only kind of event we're handled so far has been the 
@@ -980,7 +996,7 @@ i.e. kick it back into the air.
         
 With these changes we have a playable game!  See if you can keep all the balls on the move, not allowing any one to settle!
 
-A wave of animation
+A wave of animation, 動畫之波
 -------------------
 
 Many games have sprites that are animated: they crouch, jump and shoot.  How do they do that?
@@ -1195,7 +1211,7 @@ causes that instance to wave.
     .. image:: illustrations/pygame_screenshot05.png
  
  
-Aliens - a case study
+Aliens - a case study, 外星人 - 案例研究
 --------------------- 
  
 Find the example games with the PyGame package, (On a windows system, something like C:\\Python3\\Lib\\site-packages\\pygame\\examples) and play the Aliens game.  Then read the code, in an editor
@@ -1223,7 +1239,7 @@ for more of its logic.   Here are some of the points to notice:
 * The game plays sounds too: a less-than-relaxing loop sound, plus sounds for the shots and explosions.
 
 
-Reflections
+Reflections, 反省
 -----------
 
 Object oriented programming is a good organizational tool for software.  In the examples in this
@@ -1233,51 +1249,66 @@ We might have managed without the organizational power of objects --- perhaps we
 kept lists of velocities for each queen, and lists of target positions, and so on --- our code
 would likely have been much more complicated, ugly, and a lot poorer! 
 
+物件導向程式設計 是一個很好的軟體組織工具。 
+在本章中的例子，我們已經開始使用（希望讀者能欣賞）這些好處。 
+在這裡，我們有 N 個皇后，每個都有它自己的狀態，下降到自己的樓層、彈跳、被殺 等等。 
+我們也可能沒有用到物件的組織能力來處理 
+--- 或許我們可以為每皇后 設定一個 速度、位置等變數的列表等等 
+--- 我們的程式很可能更為複雜、醜陋，更糟糕！
  
-Glossary
+Glossary, 詞彙
 --------
 
 .. glossary::
 
-    animation rate
+    animation rate, 動畫速率
+    
         The rate at which we play back successive patches to create the illusion of movement.
         In the sample we considered in this chapter, we played Duke's 10 patches over the 
         duration of one second.  Not the same as the frame rate.
 
-    baked animation
+    baked animation, 烘培動畫
+    
         An animation that is designed to look good at a predetermined fixed frame rate.  
         This reduces the amount of computation that needs to be done when the game is running.
         High-end commercial games usually bake their animations.
         
-    blit
+    blit, 快速畫素複製
+        
         A verb used in computer graphics, meaning to make a fast copy of an image or pixels from
         a sub-rectangle of one image or surface to another surface or image.
         
-    frame rate  
+    frame rate, 框速率  
+        
         The rate at which the game loop executes and updates the display.
         
-    game loop
+    game loop, 遊戲迴圈
+        
         A loop that drives the logic of a game.  It will usually poll for events, then update each
         of the objects in the game, then get everything drawn, and then put the newly drawn frame on display.
         
-    pixel
+    pixel, 畫素
+        
         A single picture element, or dot, from which images are made.
         
-    poll
+    poll, (事件)清點
+    
         To ask whether something like a keypress or mouse movement has happened.  Game loops usually
         poll to discover what events have occurred.  This is different from event-driven programs like
         the ones seen in the chapter titled "Events".  In those cases, the button click or keypress
         event triggers the call of a handler function in your program, but this happens behind your back.
      
-    sprite
+    sprite, 精靈
+    
         An active agent or element in a game, with its own state, position and behaviour.
         
-    surface
+    surface, 幕
+    
         This is PyGame's term for what the Turtle module calls a *canvas*.  A surface is a rectangle 
         of pixels used for displaying shapes and images. 
         
 
-Exercises
+Exercises, 習題
 ---------
 
 #. Have fun with Python, and with PyGame.

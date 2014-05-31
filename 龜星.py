@@ -1,6 +1,10 @@
 ﻿#
 # 龜星.py
 #
+
+#
+# https://github.com/renyuanL/pythonTurtleInChinese/blob/master/turtle_tc.py
+#
 from turtle_tc import *
 
 絕對值= abs

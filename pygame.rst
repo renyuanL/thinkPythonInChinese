@@ -10,13 +10,18 @@
     
 .. index:: game loop, surface, PyGame, poll   
     
-PyGame
-======
-一個有名個遊戲模組
+PyGame, 遊戲模組
+================
 
 PyGame is a package that is not part of the standard Python distribution, so if you do not
 already have it installed (i.e. ``import pygame`` fails), download and install a suitable version from http://pygame.org/download.shtml.
 These notes are based on PyGame 1.9.1, the most recent version at the time of writing.
+
+PyGame 是一個程式模組，它不是標準的 Python 發行版的一部分， 
+所以，如果你還沒有安裝它（即 ``import pygame`` 失敗）， 
+請從 http://pygame.org/download.shtml 下載並安裝合適的版本。 
+以下這些說明都是基於 pygame 1.9.1， 
+這是在寫作本書時的最新版本。
 
 PyGame comes with a substantial set of tutorials, examples, and help, so there is ample
 opportunity to stretch yourself on the code. You may need to look around a bit to find 

@@ -42,8 +42,11 @@ The game loop, 遊戲迴圈
 
 The structure of the games we'll consider always follows this fixed pattern: 
 
-    .. image:: illustrations/pygame_structure.png  
+我們會考慮遊戲程式的結構始終遵循以下這一固定的模式：
 
+    .. image:: illustrations/pygame_structure.png  
+    .. image:: illustrations/pygame_structure_tc.png
+    
 In every game, in the *setup* section we'll create a window, load and prepare some content, and then
 enter the **game loop**.  The game loop continuously does four main things:
 
